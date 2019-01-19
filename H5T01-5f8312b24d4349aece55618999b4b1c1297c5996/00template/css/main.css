@@ -1,3 +1,9 @@
+/*global tag style */
+
+ul{margin:0;padding:0;}
+
+/*my style, customize */
+
 #wrapper {
 width:1000px;
 margin: 0 auto;
@@ -6,10 +12,30 @@ margin: 0 auto;
 img {width:100%;}
 #header{
     text-align:center;
-    font-size:2em;
+    font-size:2rem;
 }
 
-#header a{    
+ a{    
     text-decoration: none;
     color:#000;
+    /* cursor : pointer; */
 }
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    display:inline-block;
+    width:100px;
+    text-align: center;
+    background-color:#400040;
+    padding:10px;
+    margin:5px;}
+
+#nav ul li a{
+        color:#fff;}
+
+#nav ul.menus {float:left;}
+#nav ul.icons {float:right;}
+#main {clear: both;} 
